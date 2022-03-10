@@ -1,6 +1,6 @@
 # Save links
 
-Social media blocker is a chrome extention which will not allow you to use using social media websites while working 👇
+Social media blocker is a an extention which will not allow you to use social media websites while working 👇
 
 ![Demo Photo](./assets/banner.jpg)
 
