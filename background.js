@@ -22,6 +22,24 @@ allowedUrls = [
   {
     link: "https://in.pinterest.com/",
   },
+  {
+    link: "https://telegram.org/",
+  },
+  {
+    link: "www.snapchat.com/en-GB",
+  },
+  {
+    link: "https://www.tumblr.com/",
+  },
+  {
+    link: "https://www.skype.com/en/",
+  },
+  {
+    link: "https://web.telegram.org/k/",
+  },
+  {
+    link: "https://webogram.org/z/"
+  },
 ];
 
 this.allowedUrls.forEach((element) => {
