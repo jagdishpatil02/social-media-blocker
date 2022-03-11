@@ -1,6 +1,5 @@
-// // only allowed url will be added to history
-
-allowedUrls = [
+//URLs to block
+let blockedUrls = [
   {
     link: "twitter.com",
   },
@@ -30,13 +29,8 @@ allowedUrls = [
   }
 ];
 
-this.allowedUrls.forEach((element) => {
-  if(element.link.includes(window.location.origin)) {
-    let img = document.createElement("img");
-    img.style.margin = "0 auto";
-    img.style.height = "100vh";
-    img.style.display = "flex";
-    img.src = "https://i.ibb.co/r0RScrj/banner.jpg";
-    document.getElementsByTagName('body')[0].innerHTML = img;
+blockedUrls.forEach((element) => {
+  if(window.location.origin.includes(element.link)) {
+    document.getElementsByTagName("body")[0].innerHTML = '<div><img src="https://i.ibb.co/r0RScrj/banner.jpg" style="margin: 0px auto; height: 100vh; display: flex;"></div>';
   }
 });
