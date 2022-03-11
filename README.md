@@ -39,8 +39,10 @@ Social media blocker is a an extension which will not allow you to use social me
 
 1. Delete the 3 lines of code for a particular website 
 2. For example, Lets say u want to remove whatsapp and keep other websites blocked.
- {
+3. < 
+ { 
     link: "https://web.whatsapp.com/",
-  },
+   },
+   
  delete the following code in order to do the same.
  
