@@ -1,6 +1,6 @@
 // // only allowed url will be added to history
 
-let allowedUrls = [
+allowedUrls = [
   {
     link: "twitter.com",
   },
@@ -30,7 +30,7 @@ let allowedUrls = [
   }
 ];
 
-allowedUrls.forEach((element) => {
+this.allowedUrls.forEach((element) => {
   if(element.link.includes(window.location.origin)) {
     let img = document.createElement("img");
     img.style.margin = "0 auto";
