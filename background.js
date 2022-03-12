@@ -1,6 +1,31 @@
-// URLs to block
-const blockedUrls = ['twitter.com', 'facebook.com', 'instagram.com', 'linkedin.com', 'web.whatsapp.com', 'reddit.com', 'pinterest.com'];
+//URLs to block
+let blockedUrls = [
+  {
+    link: "twitter.com",
+  },
+  {
+    link: "facebook.com",
+  },
+  {
+    link: "instagram.com",
+  },
+  {
+    link: "linkedin.com",
+  },
+  {
+    link: "web.whatsapp.com",
+  },
+  {
+    link: "reddit.com",
+  },
+  {
+    link: "pinterest.com",
+  },
+];
 
-if (blockedUrls.includes(window.location.origin)) {
-  document.getElementsByTagName('body')[0].innerHTML = '<div><img src="https://i.ibb.co/r0RScrj/banner.jpg" style="margin: 0px auto; height: 100vh; display: flex;"></div>';
-}
+blockedUrls.forEach((element) => {
+  if (window.location.origin.includes(element.link)) {
+    document.getElementsByTagName("body")[0].innerHTML =
+      '<div><img src="https://i.ibb.co/r0RScrj/banner.jpg" style="margin: 0px auto; height: 100vh; display: flex;"></div>';
+  }
+});
