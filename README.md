@@ -1,4 +1,4 @@
-# Save links
+# Social media blocker
 
 Now you can directly install it from here: https://chrome.google.com/webstore/detail/social-media-blocker/bncdebfejhgcdicndlgalckjkmmhlikp
 
