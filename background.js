@@ -22,6 +22,9 @@ let blockedUrls = [
     link: "pinterest.com",
   },
   {
+    link: "discord.com",
+  },
+  {
     link: "x.com",
   },
 ];
