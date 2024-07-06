@@ -21,6 +21,9 @@ let blockedUrls = [
   {
     link: "pinterest.com",
   },
+  {
+    link: "x.com",
+  },
 ];
 
 blockedUrls.forEach((element) => {
