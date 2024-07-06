@@ -24,6 +24,9 @@ let blockedUrls = [
   {
     link: "discord.com",
   },
+  {
+    link: "x.com",
+  },
 ];
 
 blockedUrls.forEach((element) => {
